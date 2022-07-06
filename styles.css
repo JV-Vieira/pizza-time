@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  /* width: 100vw; */
+  height: 1793px;
+
+  background-color: #f6ecec;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1440px;
+  height: 1440px;
+  border-radius: 60px;
+  background: #ffffff;
+}
+
+.header {
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 100px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #00240f;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.home {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ec0000;
+}
+.menu {
+  padding: 36px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.promo {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.icon-search {
+  padding: 30px;
+}
+
+.SignIn {
+  all: unset;
+
+  width: 103px;
+  height: 40px;
+  border-radius: 25px;
+
+  background: #ec0000;
+
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-left: 20px;
+}
+
+.main {
+  width: 100%;
+  height: 1400px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  margin-left: 116px;
+  justify-content: space-between;
+}
+.main-header-left {
+  width: 50%;
+  flex-direction: column;
+}
+.main-title {
+  width: 544px;
+  height: 110px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 74px;
+  color: #00240f;
+}
+.main-subTitle {
+  width: 574px;
+  height: 51px;
+  /* margin-top: 4px; */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 58px;
+  /* or 161% */
+
+  display: flex;
+  align-items: center;
+  color: #00240f;
+}
+.oderNow {
+  all: unset;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 46px 24px 11px;
+  gap: 10px;
+
+  width: 182px;
+  height: 50px;
+
+  background: #ec0000;
+  box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+  border-radius: 25px;
+}
+.banner-img {
+  width: 860px;
+  height: 549px;
+  background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url(./assets/photo-pizza.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.recommended-menu {
+  align-items: center;
+  text-align: center;
+}
+.recommended-title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 74px;
+  /* or 206% */
+}
+.pizza-recommended {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin: 41px 245px 0px 245px;
+}
+.group-pizza {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 21px;
+
+ 
+  width: 290px;
+  height: 480px;
+  left: 245px;
+  top: 797px;
+
+  background: #ffffff;
+  /* Gray 4 */
+
+  border: 1px solid #bdbdbd;
+  border-radius: 180px 180px 30px 30px;
+}
+.group-title-pizza {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.group-text-pizza {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+.group-value-pizza {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Green */
+
+  color: #05a84b;
+}
+.group-button-cart {
+  all: unset;
+}
