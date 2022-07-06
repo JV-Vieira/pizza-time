@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<!-- ![Capturar](https://user-images.githubusercontent.com/100887684/177056637-1d1b52ba-6b30-4037-8c3e-f4a688b60812.PNG) -->
+![Capturar](https://user-images.githubusercontent.com/86362472/177617950-38893eb9-3830-44ba-a98f-cfa347315c2d.png))
 
 ## | Descrição |
 
