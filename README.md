@@ -10,13 +10,12 @@
   </a>
 </p>
 
-![Capturar](https://user-images.githubusercontent.com/100887684/177056637-1d1b52ba-6b30-4037-8c3e-f4a688b60812.PNG)
 
 
 
 ## | Descrição |
 
-Projeto de Site de Imóveis.
+Projeto de Site de uma Pizzaria.
 Proposta de layout desktop utilizando apenas HTML e CSS puro. 
 Desenvolvido durante o curso de Desenvolvimento FrontEnd - Digital House.
 
