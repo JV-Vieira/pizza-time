@@ -10,13 +10,12 @@
   </a>
 </p>
 
-
-
+<!-- ![Capturar](https://user-images.githubusercontent.com/100887684/177056637-1d1b52ba-6b30-4037-8c3e-f4a688b60812.PNG) -->
 
 ## | Descrição |
 
 Projeto de Site de uma Pizzaria.
-Proposta de layout desktop utilizando apenas HTML e CSS puro. 
+Proposta de layout desktop utilizando apenas HTML e CSS puro.
 Desenvolvido durante o curso de Desenvolvimento FrontEnd - Digital House.
 
 ## | Deploy do projeto |
@@ -29,16 +28,18 @@ Desenvolvido durante o curso de Desenvolvimento FrontEnd - Digital House.
 
 ## | Como rodar |
 
-Para clonar e rodar esse projeto você precisa ter instalado o [Git](https://git-scm.com/). 
+Para clonar e rodar esse projeto você precisa ter instalado o [Git](https://git-scm.com/).
 
 <hr>
 
 No terminal:
 
 #### Clonando o repositório
+
 $ `git clone https://github.com/JV-Vieira/pizza-time-website.git`
 
 #### Entrando no repositório
+
 $ `cd pizza-time-website`
 
 <hr>

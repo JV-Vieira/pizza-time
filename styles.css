@@ -206,7 +206,6 @@
   padding: 24px 16px;
   gap: 21px;
 
- 
   width: 290px;
   height: 480px;
   left: 245px;
@@ -217,6 +216,11 @@
 
   border: 1px solid #bdbdbd;
   border-radius: 180px 180px 30px 30px;
+}
+.group-pizza-image {
+  object-fit: cover;
+  /* border: 5px solid black; */
+  border-radius: 50%;
 }
 .group-title-pizza {
   font-family: "Fira Sans";
